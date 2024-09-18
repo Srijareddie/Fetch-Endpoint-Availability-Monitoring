@@ -8,15 +8,9 @@ Periodic Health Checks: Tests each endpoint every 15 seconds.
 Availability Tracking:  Logs cumulative availability percentages rounded to the nearest whole number.
 Detailed Logging:       Displays status codes, response times, and UP/DOWN status.
 Cycle Output:           Clearly separates logs for each testing cycle.
-Usage
-Create a YAML Configuration File with your HTTP endpoints.
-Run the Program:
-bash
-Copy code
-node your_program.js /path/to/config.yaml
 
 **How to Use????**
-Run the script by passing the path to the config file:
+Run the command:
 python endpoint_monitor.py config.yaml
 
 That’s it! The script will keep checking the endpoints and show availability stats after each cycle.
