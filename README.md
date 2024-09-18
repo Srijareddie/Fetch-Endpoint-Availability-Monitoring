@@ -10,7 +10,7 @@ Detailed Logging:       Displays status codes, response times, and UP/DOWN statu
 Cycle Output:           Clearly separates logs for each testing cycle.
 
 **How to Use????**
-Run the command:
+Run:
 python endpoint_monitor.py config.yaml
 
 **Observation:**
