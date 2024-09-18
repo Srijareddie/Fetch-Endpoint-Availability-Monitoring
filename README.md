@@ -13,4 +13,5 @@ Cycle Output:           Clearly separates logs for each testing cycle.
 Run the command:
 python endpoint_monitor.py config.yaml
 
-That’s it! The script will keep checking the endpoints and show availability stats after each cycle.
+**Observation:**
+This script continuously monitors endpoints from a YAML file, checking their status and response time every 15 seconds. To optimize, consider increasing the request timeout, using parallel or asynchronous requests to handle multiple endpoints, and reducing logging to minimize I/O operations. For large config files, optimize parsing or use a faster format like JSON.
